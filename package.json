@@ -11,20 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devinobrien-css/YouAssign-Server.git"
+    "url": "https://github.com/820tiffanywong/YouAssign_Server.git"
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devinobrien-css/YouAssign-Server/issues"
+    "url": "https://github.com/820tiffanywong/YouAssign-Server/issues"
   },
-  "homepage": "https://github.com/devinobrien-css/YouAssign-Server#readme",
+  "homepage": "https://github.com/820tiffanywong/YouAssign-Server#readme",
   "dependencies": {
     "@neo4j/graphql": "^3.7.0",
-    "apollo-server": "^3.10.2",
-    "graphql": "^16.6.0",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1",
     "neo4j-driver": "^4.4.8",
-    "nodemon": "^2.0.19"
+    "nodemon": "^3.1.0"
   }
 }
