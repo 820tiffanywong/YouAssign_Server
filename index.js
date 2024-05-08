@@ -2,9 +2,9 @@ const { Neo4jGraphQL } = require("@neo4j/graphql");
 const { ApolloServer, gql } = require("apollo-server");
 const neo4j = require("neo4j-driver");
 
-const AURA_ENDPOINT = "neo4j+s://d972d6ed.databases.neo4j.io";
+const AURA_ENDPOINT = "neo4j+s://3196d6de.databases.neo4j.io";
 const USERNAME = "neo4j";
-const PASSWORD = "HIFRdWEIBLOxy5RKTZevQfNeQfnsrvPAUO_vlepCWiU";
+const PASSWORD = "3a_iyNP_Vn35Bc_RkFA6KO-Fy5XerKN50sxmzHJXOJo";
 
 const driver = neo4j.driver(AURA_ENDPOINT, neo4j.auth.basic(USERNAME, PASSWORD));
 
